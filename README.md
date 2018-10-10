@@ -1,1 +1,1 @@
-***A basic React TodoList built utilizing react-flip-move. 
+## A basic React TodoList which utilizes react-flip-move. 
