@@ -1,23 +1,23 @@
 
 
 .listMain .listHeader input {
-  padding: 10px;/*  10px  */
-  font-size: 16px;/* 16px   */
-  border: 2px solid #FFF;/* 2px solid #FFF   */
-  width: 165px;/*  165px  */
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #FFF;
+  width: 165px;
 }
 .listMain .listHeader button {
-  padding: 10px;/* 10px  */
-  font-size: 16px;/*  16px */
-  margin: 10px;/*  0px */
-  margin-right: 0px;/*  0px */
-  background-color: blue;/* #0066FF  */
-  color: #FFF;/* #FFF  */
-  border: 2px solid #0066FF;/* #0066FF  */
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  margin-right: 0px;
+  background-color: blue;
+  color: #FFF;
+  border: 2px solid #0066FF;
 }
 .listMain .listHeader button:hover {
-  background-color: purple;/* #003399  */
-  border: 2px solid #003399;/* #003399  */
+  background-color: purple;
+  border: 2px solid #003399;
   cursor: pointer;
 }
 
@@ -27,18 +27,15 @@
 .listMain .listItems {
   list-style: none;
   padding-left: 0;
-  width: 500px;/*   250px  */
+  width: 500px;
 }
 
 .listMain .listItems li {
-  color: #333; /**  #333  */
-  background-color: rgba(47, 79, 79,.5); /*  rgba(255,255,255,.5)  */
-  /*background-color: hsla(0,0%,100%,.5);*/
-
+  color: #333;
+  background-color: rgba(47, 79, 79,.5);
   padding: 15px;
   margin-bottom: 15px;
   border-radius: 5px;
- /**list-style: none;*/
 
   transition: background-color .2s ease-out;
 }

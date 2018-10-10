@@ -16,14 +16,12 @@ class TodoList extends Component {
 
   addItem(e) {
     if (this._inputElement.value !=="") {
-      //let
       let newItem = {
         text: this._inputElement.value,
         key: Date.now()
       };
 
       this.setState( (prevState) => {
-        //ensure that state object isn't modified. use prevState
          return {
            items: prevState.items.concat(newItem)
          };
@@ -31,16 +29,14 @@ class TodoList extends Component {
       this._inputElement.value = ""
     }
     console.log(this.state.items);
-    e.preventDefault() //to prevent the entire page from reloading after submit (default bx of submit event)
+    e.preventDefault()
   } //close addItem() f(x)
 
   deleteItem(key) {
-    //Here I create a new array called filteredItems
-    //let
+
     let filteredItems = this.state.items.filter(function (item) {
-      return (item.key !== key)//returns a filtered array which contains e/thing except the being removed.
+      return (item.key !== key)
     })
-    //...the filtered array is next set to the items prop on the state object
     this.setState({
       items: filteredItems
     })
